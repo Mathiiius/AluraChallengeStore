@@ -1,8 +1,11 @@
-Análisis de Ventas y Rendimiento de Tiendas Alura Store
-Descripción
+# Análisis de Ventas y Rendimiento de Tiendas Alura Store
+
+**Descripción**
+
 Este proyecto tiene como objetivo ayudar al Sr. Juan a decidir cuál tienda de la cadena Alura Store debería vender para iniciar un nuevo emprendimiento. A través del análisis de datos de ventas, ingresos, productos, calificaciones de clientes y costos de envío de las cuatro tiendas, se identifica la tienda menos eficiente.
 
-Estructura del Proyecto
+# Estructura del Proyecto
+
 1. Importación de Datos
 Se cargaron los datos de las cuatro tiendas desde archivos CSV alojados en URLs, utilizando pandas para manipulación y análisis de datos.
 
@@ -21,47 +24,52 @@ Se identificaron los productos con mayor y menor cantidad de ventas en cada tien
 6. Costo de Envío Promedio
 Se calculó el costo de envío promedio para cada tienda, para evaluar el impacto de los costos logísticos en la rentabilidad y competitividad.
 
-Visualizaciones
+# Visualizaciones
+
 Para cada análisis se generaron gráficos diferentes que facilitan la interpretación visual de los datos:
 
-Análisis de facturación: Gráfico de barras verticales mostrando ingresos totales por tienda.
+* Análisis de facturación: Gráfico de barras verticales mostrando ingresos totales por tienda.
 
-Ventas por categoría: Gráfico de líneas comparando la cantidad vendida por categoría y tienda.
+* Ventas por categoría: Gráfico de líneas comparando la cantidad vendida por categoría y tienda.
 
-Calificación promedio: Gráfico de pastel mostrando la distribución de calificaciones promedio.
+* Calificación promedio: Gráfico de pastel mostrando la distribución de calificaciones promedio.
 
-Productos más y menos vendidos: Tabla resumen con productos destacados y sus ventas.
+* Productos más y menos vendidos: Tabla resumen con productos destacados y sus ventas.
 
-Costo de envío promedio: Gráfico de dispersión con costos de envío por tienda.
+* Costo de envío promedio: Gráfico de dispersión con costos de envío por tienda.
 
-Resultados Clave
-La Tienda 1 es la que genera mayores ingresos, aunque con la calificación promedio más baja.
+# Resultados Clave
 
-Las categorías de productos más vendidas se mantienen constantes en todas las tiendas, con “Muebles” y “Electrónicos” liderando.
+* La Tienda 1 es la que genera mayores ingresos, aunque con la calificación promedio más baja.
 
-La Tienda 3 tiene la mejor calificación promedio, seguida por Tienda 2 y Tienda 4.
+* Las categorías de productos más vendidas se mantienen constantes en todas las tiendas, con “Muebles” y “Electrónicos” liderando.
 
-El costo de envío más bajo corresponde a la Tienda 4, aunque esta tienda también tiene los menores ingresos.
+* La Tienda 3 tiene la mejor calificación promedio, seguida por Tienda 2 y Tienda 4.
 
-La Tienda 4 presenta un rendimiento general más bajo en comparación con las demás.
+* El costo de envío más bajo corresponde a la Tienda 4, aunque esta tienda también tiene los menores ingresos.
 
-Conclusión
+* La Tienda 4 presenta un rendimiento general más bajo en comparación con las demás.
+
+# Conclusión
+
 Con base en el análisis de todos los factores mencionados, se recomienda que el Sr. Juan venda la Tienda 4, que es la menos eficiente en ingresos y ventas, aunque mantiene un costo de envío más bajo. Esto permitirá concentrar esfuerzos en las tiendas con mejor desempeño para maximizar el éxito del nuevo emprendimiento.
 
-Tecnologías Utilizadas
-Python 3.x
+# Tecnologías Utilizadas
 
-Pandas
+* Python 3.x
 
-Matplotlib
+* Pandas
 
-Seaborn
+* Matplotlib
 
-Cómo ejecutar el proyecto
-Asegúrate de tener Python y las librerías pandas, matplotlib y seaborn instaladas.
+* Seaborn
 
-Ejecuta el código paso a paso en un Jupyter Notebook o Google Colab.
+# Cómo ejecutar el proyecto
 
-Revisa los gráficos y tablas generadas para comprender el análisis.
+1. Asegúrate de tener Python y las librerías pandas, matplotlib y seaborn instaladas.
 
-Lee el informe final para conocer la recomendación basada en los datos.
+2. Ejecuta el código paso a paso en un Jupyter Notebook o Google Colab.
+
+3. Revisa los gráficos y tablas generadas para comprender el análisis.
+
+4. Lee el informe final para conocer la recomendación basada en los datos.
